@@ -1,0 +1,47 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background: #f2f2f2;
+	font-family: Arial;
+}
+
+.cajaPadre {
+	background: #CDB4DB;
+	width: 700px;
+	/* Permite cerrar el contenido de una forma correcta, esta propiedad siempre va en el contenedor padre */
+	overflow: hidden;
+}
+
+/*.clear {
+	clear:both;
+}*/
+
+.caja {
+	width: 200px;
+	color: #fff;
+	font-size: 38px;
+	height: 200px;
+	background: #BDE0FE;
+	margin: 20px;
+}
+
+/* De esta forma ponemos una caja a lado de la otra, tipo bloque */
+.uno {
+	float: left;
+}
+
+.dos {
+	float: right;
+}
+
+.articulo {
+	background: #FFAFCC;
+	width: 800px;
+}
+
+.articulo img {
+	float: left;
+}

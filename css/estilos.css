@@ -1,0 +1,10 @@
+/*
+Estructura de una regla CSS
+h1 <----> SELECTOR, al elemento al que le queremos aplicar los efectos
+color <-----> Propiedad, efecto o cambio que le queremos dar al o los elementos
+hotpink  <----> valor que le daremos a la propiedad
+*/
+
+h1 {
+	color:hotpink;
+}
